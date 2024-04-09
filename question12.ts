@@ -1,4 +1,4 @@
-// printing a message to each element in the array called names,using for-of loop
+// printing a message to each element in the array called names,using for-of loop.
 
 let names: string[] = ["Abishai", "Ameen", "Qasim", "Zia" ,"Bilal"];
 

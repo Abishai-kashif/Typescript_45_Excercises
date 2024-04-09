@@ -1,4 +1,4 @@
-// printing person name in three different Cases
+// printing person name in three different Cases.
 
 let personName: string = "qAsim";
 

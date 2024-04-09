@@ -1,4 +1,4 @@
-// More Guests
+// More Guests.
 
 let invitedPeoples: string[] = ["Sir qasim" ,"Sir zia" ,"Alliah" ,"Amaan"];
 
@@ -11,7 +11,7 @@ invitedPeoples.splice(Math.floor(invitedPeoples.length/2) ,0 ,"Hira")//adding el
 invitedPeoples.push("Fatima");//adding element at the last position
 
 
-invitedPeoples.forEach((val: string) => {
+invitedPeoples.forEach((people: string) => {
 // inviting everyone
-    console.log(`Hello ${val},I cordially invite you at dinner tonight.`);
+    console.log(`Hello ${people},I cordially invite you at dinner tonight.`);
 });

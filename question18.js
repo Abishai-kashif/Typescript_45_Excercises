@@ -1,4 +1,4 @@
-//seeing the world
+//seeing the world.
 var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
     if (pack || arguments.length === 2) for (var i = 0, l = from.length, ar; i < l; i++) {
         if (ar || !(i in from)) {
@@ -16,5 +16,7 @@ console.log("Reversed alphabetical order:", __spreadArray([], locations, true).s
 console.log("Original order:", locations);
 console.log("Reversed order:", locations.reverse()); //reversing the order of the array
 console.log("Original order:", locations.reverse()); //printing again reversed order
-console.log(locations.sort()); //sorting the original array
-console.log(locations.reverse()); //sorting in reverse alphabetic order
+locations.sort();
+console.log(locations); //sorting the original array
+locations.reverse();
+console.log(locations); //sorting in reverse alphabetic order

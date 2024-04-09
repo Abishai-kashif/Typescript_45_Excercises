@@ -1,4 +1,4 @@
-//seeing the world
+//seeing the world.
 
 let locations: string[] = ["London", "Paris", "New York", "Tokyo", "Sydney"];
 console.log("Original order:",locations);
@@ -13,8 +13,12 @@ console.log("Original order:",locations);
 console.log("Reversed order:",locations.reverse());//reversing the order of the array
 console.log("Original order:",locations.reverse());//printing again reversed order
 
-console.log(locations.sort());//sorting the original array
-console.log(locations.reverse());//sorting in reverse alphabetic order
+locations.sort()
+console.log(locations);//sorting the original array
+
+
+locations.reverse()
+console.log(locations);//sorting in reverse alphabetic order
 
 
 

@@ -1,4 +1,4 @@
-//Intentional Error
+//Intentional Error.
 
 let languages: string[] = ["English" ,"Urdu" ,"Punjabi" ,"Sindhi" ,"Pashto"];
  

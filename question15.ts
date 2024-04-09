@@ -1,6 +1,7 @@
-// Changing Guest List
+// Changing Guest List.
 
 let invitedPeoples: string[] = ["Sir qasim" ,"Sir zia" ,"Sir Ameen" ,"Amaan"];
+
 
 // person who cant make the dinner
 let person: string = "Sir Ameen";

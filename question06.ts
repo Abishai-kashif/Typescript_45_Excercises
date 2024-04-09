@@ -1,8 +1,9 @@
-// Striping Names
+// Striping Names.
 
-let personName: string = "\n \t     Abishai     \n";
-console.log(`Original Name :${personName}`);
+let personName: string = "\n \t     Abishai     \n"; //this saves name with whitespaces
+
+console.log(`Original Name :${personName}`); // name before stripping whitespaces
 
 
 personName = personName.trim();
-console.log(`Striped Name :${personName}`);
+console.log(`Striped Name :${personName}`); //name after stripping whitespaces

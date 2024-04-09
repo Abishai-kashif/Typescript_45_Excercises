@@ -1,6 +1,6 @@
-// Define a TypeScript object
+// Define a TypeScript object.
 
-const student: {name: string;age: number;marks: number;isPass: boolean} = {
+const student: {name: string; age: number; marks: number; isPass: boolean} = {
 
     name: "Abishai Kashif",
     age: 20,

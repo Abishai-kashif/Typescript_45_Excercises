@@ -1,4 +1,4 @@
-// adding a string to a variable
+// adding a string to a variable.
 let a: string = "Hello World!";
 
 // printing the variable

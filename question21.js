@@ -1,4 +1,4 @@
-// Define a TypeScript object
+// Define a TypeScript object.
 var student = {
     name: "Abishai Kashif",
     age: 20,

@@ -1,4 +1,4 @@
-// writing a program containing list of languages
+// writing a program containing list of languages.
 
 let languages: string[] = ["English" ,"Urdu" ,"Punjabi" ,"Sindhi" ,"Pashto"];
 

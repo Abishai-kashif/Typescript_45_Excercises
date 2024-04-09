@@ -7,7 +7,7 @@ while (invitedPeoples.length > 2) {
     console.log("Sorry ".concat(removedPerson, ", I can't invite you to dinner.")); //apologizing each person
 }
 ;
-console.log(""); // adding an empty line
+console.log(""); // printing an empty line
 invitedPeoples.forEach(function (val) {
     console.log("Hello ".concat(val, ",you are still invited at dinner tonight."));
 });

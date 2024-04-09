@@ -1,4 +1,4 @@
 // printing a quote of famous person
-var famous_person = "Muhammad Ali";
-var message = "\"I hated every minute of training, but I said, \"Don't quit. Suffer now and live the rest of your life as a champion!\"";
-console.log("".concat(famous_person, " once said, ").concat(message));
+var famousPerson = "Muhammad Ali";
+var message = "\"".concat(famousPerson, " once said,\u201CI hated every minute of training,but I said,\u201CDont quit. Suffer now and live the rest of your life as a champion!\u201D");
+console.log(message);

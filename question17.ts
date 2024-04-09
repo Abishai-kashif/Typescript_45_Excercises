@@ -11,7 +11,7 @@ while (invitedPeoples.length > 2) {
     console.log(`Sorry ${removedPerson}, I can't invite you to dinner.`);//apologizing each person
 };
 
-console.log("");// adding an empty line
+console.log("");// printing an empty line
 
 invitedPeoples.forEach((val: string) => {
     

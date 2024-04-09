@@ -1,4 +1,4 @@
-// adding a string to a variable
+// adding a string to a variable.
 var a = "Hello World!";
 // printing the variable
 console.log(a);

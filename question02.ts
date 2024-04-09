@@ -1,4 +1,4 @@
-// printing a message to the person
+// printing a message to the person.
 
 let person: string = "Ameen";
 

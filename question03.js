@@ -1,4 +1,4 @@
-// printing person name in three different Cases
+// printing person name in three different Cases.
 var personName = "qAsim";
 console.log(personName.toLowerCase());
 console.log(personName.toUpperCase());

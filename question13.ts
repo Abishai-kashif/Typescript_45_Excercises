@@ -1,9 +1,9 @@
-//printing series of sentences about the items in the array
+//printing series of sentences about the items in the array.
 
 let favTransports: string[] = ["bicycle" ,"car" ,"bike" ,"jet" ,"scooter"];
 
 
-favTransports.forEach((val: string) => {
+favTransports.forEach((transport: string) => {
 
-    console.log(`I would like to own ${val}.`);
+    console.log(`I would like to own ${transport}.`);
 });
