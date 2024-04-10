@@ -1,6 +1,6 @@
 // Alien Colors #2
 //initializing the alien color
-var alienColor = "green";
+let alienColor = "green";
 // version that runs if block
 if (alienColor === "green") {
     console.log("The player just earned 5 points.");

@@ -1,13 +1,13 @@
 // Great Magicians
-var magicians = ["Harry Houdini", "David Blaine", "Penn Jillette", "Teller"];
-var showMagicians = function (array) {
-    array.forEach(function (magician, idx) {
-        console.log("".concat(idx + 1, ") ").concat(magician, "."));
+let magicians = ["Harry Houdini", "David Blaine", "Penn Jillette", "Teller"];
+let showMagicians = (array) => {
+    array.forEach((magician, idx) => {
+        console.log(`${idx + 1}) ${magician}.`);
     });
 };
-var makeGreat = function (array) {
-    magicians.forEach(function (magician) {
-        magicians.splice(magicians.indexOf(magician), 1, "The Great ".concat(magician));
+let makeGreat = (magicians) => {
+    magicians.forEach((magician) => {
+        magicians.splice(magicians.indexOf(magician), 1, `The Great ${magician}`);
     });
 };
 makeGreat(magicians); //modifies original array

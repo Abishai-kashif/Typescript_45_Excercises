@@ -1,17 +1,17 @@
 //Ordinal Numbers
-var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-numbers.forEach(function (num) {
+let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+numbers.forEach((num) => {
     if (num === 1) {
-        console.log("".concat(num, "st"));
+        console.log(`${num}st`);
     }
     else if (num === 2) {
-        console.log("".concat(num, "nd"));
+        console.log(`${num}nd`);
     }
     else if (num === 3) {
-        console.log("".concat(num, "rd"));
+        console.log(`${num}rd`);
     }
     else {
-        console.log("".concat(num, "th"));
+        console.log(`${num}th`);
     }
     ;
 });

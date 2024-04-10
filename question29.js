@@ -1,5 +1,5 @@
 //Favorite Fruits
-var favFruits = ["mango", "apple", "lychee"];
+let favFruits = ["mango", "apple", "lychee"];
 //independent if statements
 if (favFruits.includes("mango")) {
     console.log("You really like mangos!");

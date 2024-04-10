@@ -1,5 +1,5 @@
 // Conditional Test
-var animal = "Lion";
+let animal = "Lion";
 //Test 1
 console.log("\nIs animal == 'Lion'? I predict True");
 console.log(animal == "Lion");

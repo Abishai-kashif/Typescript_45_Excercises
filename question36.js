@@ -1,6 +1,6 @@
 // T-Shirt
-var makeShirt = function (size, text) {
-    console.log("The size of the T-Shirt is ".concat(size, " and the message printed on it is \"").concat(message, "\"."));
+let makeShirt = (size, text) => {
+    console.log(`The size of the T-Shirt is ${size} and the message printed on it is "${message}".`);
 };
-var message = "Pakistan Zindabad";
+let message = "Pakistan Zindabad";
 makeShirt("medium", message); //avoking a function

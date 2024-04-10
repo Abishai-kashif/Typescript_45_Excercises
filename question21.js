@@ -1,8 +1,10 @@
 // Define a TypeScript object.
-var student = {
+const student = {
     name: "Abishai Kashif",
     age: 20,
     marks: 90,
     isPass: true
 };
-console.log("The name of the student is ".concat(student.name, "\nand his age is ").concat(student.age, " and his marks are ").concat(student.marks, "\n and he is ").concat(student.isPass ? "pass" : "fail"));
+console.log(`The name of the student is ${student.name}
+and his age is ${student.age} and his marks are ${student.marks}
+ and he is ${student.isPass ? "pass" : "fail"}`);

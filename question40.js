@@ -1,6 +1,6 @@
 /// Album
-var makeAlbum = function (artist, title, tracks) {
-    var album = { artist: artist, title: title }; /* automatically assigning values using
+let makeAlbum = (artist, title, tracks) => {
+    let album = { artist, title }; /* automatically assigning values using
                                             "object property shorthand" aproach.*/
     if (tracks) {
         album["tracks"] = tracks;

@@ -1,7 +1,6 @@
 // Cities
-var describeCity = function (city, country) {
-    if (country === void 0) { country = "Pakistan"; }
-    console.log("".concat(city, " is in ").concat(country, "."));
+let describeCity = (city, country = "Pakistan") => {
+    console.log(`${city} is in ${country}.`);
 };
 describeCity("Karachi"); // calling function with default country
 describeCity("Hyderabad");

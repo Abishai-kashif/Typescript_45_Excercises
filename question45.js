@@ -1,15 +1,8 @@
 // Cars
-var makeCar = function (manufacturer, model) {
-    var more = [];
-    for (var _i = 2; _i < arguments.length; _i++) {
-        more[_i - 2] = arguments[_i];
-    }
-    var car = { manufacturer: manufacturer, model: model };
+let makeCar = (manufacturer, model, ...more) => {
+    let car = { manufacturer, model };
     // It will dynamically add properties to the object if provided.
-    more.forEach(function (_a) {
-        var key = _a[0], value = _a[1];
-        return car[key] = value;
-    });
+    more.forEach(([key, value]) => car[key] = value);
     return car;
 };
 console.log(makeCar("Mehran", "X5"));

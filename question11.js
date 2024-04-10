@@ -1,5 +1,5 @@
 // printing each elements from the array called names.
-var names = ["Abishai", "Ameen", "Qasim", "Zia", "Bilal"];
-names.forEach(function (name) {
+let names = ["Abishai", "Ameen", "Qasim", "Zia", "Bilal"];
+names.forEach((name) => {
     console.log(name);
 });

@@ -1,6 +1,6 @@
 // City Names
-var cityCountry = function (city, country) {
-    return "".concat(city, ", ").concat(country);
+let cityCountry = (city, country) => {
+    return `${city}, ${country}`;
 };
 console.log(cityCountry("Karachi", "Pakistan"));
 console.log(cityCountry("Delhi", "India"));

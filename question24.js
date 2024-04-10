@@ -1,7 +1,7 @@
 //MORE CONDITIONAL TEST!
-var color = "Blue";
-var age = 17;
-var games = ["hockey", "cricket", "football", "tenis"];
+let color = "Blue";
+let age = 17;
+let games = ["hockey", "cricket", "football", "tenis"];
 //Tests for equality and inequality with strings
 console.log("TESTING FOR EQUALITY WITH STRING!");
 console.log("\nIs color == 'Blue'? I predict True");
