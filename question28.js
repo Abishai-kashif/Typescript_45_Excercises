@@ -1,3 +1,4 @@
+"use strict";
 //Stages of life
 let age = 17;
 //if else chain,that determines the person's stage of life

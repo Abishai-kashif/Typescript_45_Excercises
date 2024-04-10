@@ -1,3 +1,4 @@
+"use strict";
 // Define a TypeScript object.
 const student = {
     name: "Abishai Kashif",

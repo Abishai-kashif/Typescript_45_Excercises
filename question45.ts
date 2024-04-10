@@ -1,8 +1,8 @@
 // Cars
 
-let makeCar = (manufacturer: string ,model: string ,...more: [string ,any][]): object => {
+let makeCar = (manufacturer: string ,model: string ,...more: [string ,any][]): any => {
     
-    let car: object = {manufacturer ,model};
+    let car: any = {manufacturer ,model};
     // It will dynamically add properties to the object if provided.
     more.forEach(([key ,value]) => car[key] = value);
     return car;

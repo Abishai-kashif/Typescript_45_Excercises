@@ -1,3 +1,4 @@
+"use strict";
 //Sandwitches
 let orderSandwitch = (...items) => {
     console.log(`You ordered a sandwitch with ${items.join(", ")}.`);

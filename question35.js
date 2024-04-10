@@ -1,3 +1,4 @@
+"use strict";
 // Animals
 let animals = ["lion", "tiger", "leoperd"];
 animals.forEach((animal) => {

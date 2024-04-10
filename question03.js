@@ -1,3 +1,4 @@
+"use strict";
 // printing person name in three different Cases.
 let personName = "qAsim";
 console.log(personName.toLowerCase());

@@ -1,3 +1,4 @@
+"use strict";
 // Conditional Test
 let animal = "Lion";
 //Test 1

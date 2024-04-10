@@ -1,3 +1,4 @@
+"use strict";
 //Hello Admin!
 //initializing the arr of users including admin
 let userNames = ["ameen", "qasim", "zia", "abishai", "kashif"];

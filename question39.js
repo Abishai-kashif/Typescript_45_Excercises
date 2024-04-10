@@ -1,3 +1,4 @@
+"use strict";
 // City Names
 let cityCountry = (city, country) => {
     return `${city}, ${country}`;

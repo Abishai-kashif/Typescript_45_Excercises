@@ -1,3 +1,4 @@
+"use strict";
 // Prints four operations,resulting in the number 8.
 console.log(5 + 3); //addition
 console.log(9 - 1); //subtraction

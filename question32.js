@@ -1,3 +1,4 @@
+"use strict";
 // checking Usernames
 let currentUsers = ["ameen", "qasim", "Zia", "Abishai", "kashif"];
 let newUsers = ["robert", "Ameen", "mehar", "hamza", "ABISHAI"];

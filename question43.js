@@ -1,3 +1,4 @@
+"use strict";
 // Unchanged Magicians
 let magicians = ["Harry Houdini", "David Blaine", "Penn Jillette", "Teller"];
 let showMagicians = (array) => {

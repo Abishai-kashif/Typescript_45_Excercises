@@ -1,3 +1,4 @@
+"use strict";
 //Alien Colors #1
 //initializing the alien color
 let alienColor = "green";

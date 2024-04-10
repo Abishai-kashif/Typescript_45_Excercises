@@ -1,3 +1,4 @@
+"use strict";
 // Cars
 let makeCar = (manufacturer, model, ...more) => {
     let car = { manufacturer, model };

@@ -1,3 +1,4 @@
+"use strict";
 // Pizzas
 let pizzas = ["tikka pizza", "fajita pizza", "tanduri pizza"];
 pizzas.forEach((pizza) => {

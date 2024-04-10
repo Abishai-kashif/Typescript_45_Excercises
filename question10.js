@@ -1,3 +1,4 @@
+"use strict";
 // adding a string to a variable.
 let a = "Hello World!";
 // printing the variable

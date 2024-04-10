@@ -1,3 +1,4 @@
+"use strict";
 //seeing the world.
 let locations = ["London", "Paris", "New York", "Tokyo", "Sydney"];
 console.log("Original order:", locations);

@@ -1,3 +1,4 @@
+"use strict";
 /// Album
 let makeAlbum = (artist, title, tracks) => {
     let album = { artist, title }; /* automatically assigning values using

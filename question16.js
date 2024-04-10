@@ -1,3 +1,4 @@
+"use strict";
 // More Guests.
 let invitedPeoples = ["Sir qasim", "Sir zia", "Alliah", "Amaan"];
 // informing everyone that there is a bigger table

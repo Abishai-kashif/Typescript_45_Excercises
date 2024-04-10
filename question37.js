@@ -1,3 +1,4 @@
+"use strict";
 //Large T-Shirt
 //giving default values
 let makeShirt = (size = "large", text = "I love Typescript") => {

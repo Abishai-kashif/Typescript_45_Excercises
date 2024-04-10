@@ -1,3 +1,4 @@
+"use strict";
 // Cities
 let describeCity = (city, country = "Pakistan") => {
     console.log(`${city} is in ${country}.`);

@@ -1,3 +1,4 @@
+"use strict";
 //Favorite Fruits
 let favFruits = ["mango", "apple", "lychee"];
 //independent if statements

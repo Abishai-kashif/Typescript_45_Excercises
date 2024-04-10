@@ -1,3 +1,4 @@
+"use strict";
 //No Users
 let userNames = [];
 if (userNames.length === 0) {

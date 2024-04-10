@@ -1,3 +1,4 @@
+"use strict";
 // printing a message to each element in the array called names,using for-of loop.
 let names = ["Abishai", "Ameen", "Qasim", "Zia", "Bilal"];
 for (let name of names) {

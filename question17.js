@@ -1,3 +1,4 @@
+"use strict";
 // Shrinking Guests
 let invitedPeoples = ["Ayesha", "Sir qasim", "Hira", "Sir zia", "Alliah", "Amaan", "Fatima"];
 console.log("New dinner table wont arive at the time of the dinner,so I can invite only 2 guests.\n");

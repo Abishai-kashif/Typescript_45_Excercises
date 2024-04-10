@@ -1,3 +1,4 @@
+"use strict";
 //MORE CONDITIONAL TEST!
 let color = "Blue";
 let age = 17;

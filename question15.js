@@ -1,3 +1,4 @@
+"use strict";
 // Changing Guest List.
 let invitedPeoples = ["Sir qasim", "Sir zia", "Sir Ameen", "Amaan"];
 // person who cant make the dinner
